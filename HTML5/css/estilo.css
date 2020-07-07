@@ -1,0 +1,28 @@
+header{
+	border: 1px solid red;
+}
+
+header h1{
+	font-size: 5em;
+	color: blue;
+	padding-left: 500px;	
+}
+nav{
+	border: 1px solid blue;
+}
+nav span{
+	font-size: 5em;
+	padding: 500px;
+}
+footer{
+	background: #ccc;
+}
+article{
+	background: orange;
+}
+aside{
+	background: blue;
+}
+h1{
+	color: pink;
+}
