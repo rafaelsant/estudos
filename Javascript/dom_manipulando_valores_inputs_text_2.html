@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function distribuiCaracter(){
+			//selecionar o valor digitado
+			var caracter = document.getElementById('entrada').value
+			var asc = caracter.codePointAt(caracter)
+			//limpar o campo de digitação
+			document.getElementById('entrada').value = ''
+			//limpar espaços em branco na extremidades da string
+			caracter.trim()
+			//using ASCII to trim the letters from de numbers
+			if (asc>=65 && asc<=90 || asc>=97 && asc<=122) {
+				document.getElementById('apenas_letras').value += caracter
+			}else{
+				document.getElementById('apenas_numeros').value += caracter
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="entrada" placeholder="Digite um caracter aqui" onkeyup="distribuiCaracter()">
+	<hr>
+	<span>Letras:</span>
+	<input type="text" disabled="disabled" id="apenas_letras">
+	<span>Números:</span>
+	<input type="text" disabled="disabled" id="apenas_numeros">
+</body>
+</html>
