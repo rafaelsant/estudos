@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script>
+        var listaFuncionarios = ['Jorge', 'Jamilton', 'Rafael', 'Laura', 'Ana', 'José']
+
+        listaFuncionarios.forEach(function(valor, indice, array){
+            //lógica executada para cada um dos índices do array
+            console.log('indice '+ indice+ ' | valor '+ valor)
+            if (valor == 'Rafael') {array[indice] = 'Um novo valor'}
+            console.log(array)
+        })
+        document.write(listaFuncionarios[2] + "<br/>")
+    </script>
+</head>
+<body>
+
+</body>
+</html>
