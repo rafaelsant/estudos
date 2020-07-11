@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+        <script>
+        //Inicializando array com objetos
+        var objetos = Array('Cadeira', 'Impressora', 'Garfo')
+        //Iniciando função que adiciona valores do campo objeto
+        function adicionaValor() {
+            //variável valorEntrada recebe o valor do campo de texto
+            var valorEntrada = document.getElementById('objeto').value
+            console.log(objetos.indexOf(valorEntrada))
+            //confere se o valor inserido não é nulo
+            if (valorEntrada != '') {
+                //confere se o objeto não foi adicionado no array
+                if (objetos.indexOf(valorEntrada) !== -1) {
+                    alert('Objeto já foi adicionado')
+                }else{
+                //se o objeto não existe no array ele é adicionado
+                //o resultado é mostrado no console
+                //o valor do campo é zerado
+                    objetos.push(valorEntrada)
+                    console.log(objetos)
+                    document.getElementById('objeto').value = ''
+                }
+            }else{
+                //se o valor de entrada for nulo um alert é mostrado
+                alert('Informe um valor válido')
+            }
+        }
+        //função ordena o array usando o método sort
+        //a lista é exibida no console para debug
+       function ordenarObjetos() {
+            objetos.sort()
+            console.log(objetos)
+        }
+    
+    </script>
+</head>
+<body>
+    <input id="objeto" type="text" name="">
+    <button onclick="adicionaValor()">Adicionar</button>
+    <button onclick="ordenarObjetos()">Ordenar</button>
+
+
+</body>
+</html>
