@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script type="text/babel">
+	/*let quadrado = function(x = 5){
+		return x * x
+	}*/
+	//arrow function tem a mesma função de uma função anônima
+	/*let cubo = x =>{ 
+		return x*x*x
+	}*/
+
+	//retorno implicito
+
+	/*let cubo = x => x*x*x
+	document.write(cubo(3))
+	/*let parOuImpar = function(numero){
+		if (numero % 2 === 0) {
+			return 'par'
+		}else{
+		return impar}
+	}*/
+	//return implicito e uso do operador ternário
+	//operador ternário:
+	//condição ? (ação true) : (ação false)
+	let parOuImpar = numero => numero%2===0 ? "par" : "impar"
+
+	document.write(parOuImpar(2))
+	</script>
+	
+
+</head>
+<body>
+	
+</body>
+</html>
