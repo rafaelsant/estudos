@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="output"></div>
+<!-- Load Babel -->
+<!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<!-- Your custom script here -->
+<script type="text/babel">
+class Banco{
+	constructor(){
+		this.agencia = 1045
+		this.saldo = 50
+		this.numeroConta = 5050505
+		this.limite = 500
+	}
+	depositar(valorDeposito){
+		this.saldo += valorDeposito
+	}
+	sacar(valorSaque){
+		this.saldo -= valorSaque
+	}
+	consultarSaldo(){
+		return this.saldo
+	}
+}
+let conta = new Banco()
+conta.depositar(450)
+console.log(conta.consultarSaldo())
+</script>
+</body>
+</html>
