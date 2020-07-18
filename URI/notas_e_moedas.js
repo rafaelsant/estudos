@@ -26,9 +26,7 @@ function preenche(){
 	var cincoC= 0
 	var umC= 0
 	var D = document.getElementById('entrada').value
-	console.log(D)
 	D = parseFloat(toFixed(D,2))
-	console.log(D)
 	if(D >= 0 & D <= 1000000.00){
 		while(D != 0 ){
 			while (D > 100.00) {
