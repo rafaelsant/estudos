@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        Object.prototype.attr50 = 'todos'
+        let animal = {
+            atrb1 :'a'
+        }
+        let vertebrado = {
+            __proto__:animal,atrb2 : 'b'
+        }
+        let ave = {
+            __proto__:vertebrado, atrb3 : 'c'
+        }
+        console.log(ave.atrb1, ave.attr50)
+    </script>
+
+    </head>
+
+  <body>
+  </body>
+</html>
