@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+
+    let Carro  = function(){
+      this.cor = "Amarelo"
+      this.modelo = "Chevete"
+      this.velocidadeAtual = 0
+      this.velocidadeMaxima = 180
+      this.acelerar = function(){
+        let velocidade = this.getVelocidadeAtual() + 50
+        if (velocidade > this.velocidadeMaxima) {
+        	velocidade = this.velocidadeMaxima
+        }
+        this.setVelocidadeAtual(velocidade)
+      }
+      this.getVelocidadeAtual = function(){
+        return this.velocidadeAtual
+      }
+      this.setVelocidadeAtual = function(velocidadeAtual){
+        this.velocidadeAtual = velocidadeAtual
+      }
+    }
+
+
+
+
+
+    let Carro2  = function(){
+      this.cor = "Amarelo"
+      this.modelo = "Chevete"
+      this.velocidadeAtual = 0
+      var velocidadeMaxima = 180
+      var quilometrosRodados = 0
+      this.acelerar = function(){
+        let velocidade = this.getVelocidadeAtual() + 50
+        if (velocidade > velocidadeMaxima) {
+        	velocidade = velocidadeMaxima
+        }
+        this.setVelocidadeAtual(velocidade)
+      	setQuilometrosRodados(0.07)
+      }
+      this.getVelocidadeAtual = function(){
+        return this.velocidadeAtual
+      }
+      this.setVelocidadeAtual = function(velocidadeAtual){
+        this.velocidadeAtual = velocidadeAtual
+      }
+      var setQuilometrosRodados = function(q){
+      	console.log(quilometrosRodados)
+      	quilometrosRodados += q
+      }
+    }
+
+
+
+    let carro = new Carro2()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+    console.log(carro.velocidadeAtual)
+    carro.acelerar()
+
+    </script>
+
+    </head>
+
+  <body>
+  </body>
+</html>
