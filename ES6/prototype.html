@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+    //aviao
+    //atributos cor e modelo; metodo levantarVoo
+
+    //objeto literal
+    let a1 ={
+        cor: "branco",
+        modelo: "Airbus A380",
+        levantarVoo: function() { console.log('levantar voo')}
+    }
+    //função construtora
+    let AviaoF = function(){
+        this.cor = 'Azul'
+        this.modelo = 'Boeing 787'
+        this.levantarVoo = function(){ console.log('levantar voo')}
+    }
+    let a2 = new AviaoF()
+
+    //classe
+    class AviaoC{
+        constructor(){
+            this.cor = 'Vermelho'
+            this.modelo = 'Embraer E-Jets'
+        }
+        levantarVoo(){
+            console.log('levantar voo')
+        }
+    }
+    let a3 = new AviaoC
+    console.log(a1)
+    console.log(a2)
+    console.log(a3)
+    </script>
+
+    </head>
+
+  <body>
+  </body>
+</html>
