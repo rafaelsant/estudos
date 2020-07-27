@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        //detructoring
+        let frutas = ['abacaxi', 'uva','pera', 'mamao']
+        //let [a,b] = frutas //atribuindo em linha
+        //let [a,,b] = frutas //pulando indices
+        //let [a,b='abacate',c,d,e = "banana"] = frutas //atribuindo valor default somente se nao existir
+        //console.log(a,b,c,d,e)
+        //recuperando valores de arrays multidimensionais
+        let coisas = [['abacaxi', 'uva','pera', 'mamao'],['José','Maria']]
+        let [,[,a]] = coisas
+        console.log(a)
+    </script>
+
+    </head>
+
+  <body>
+  </body>
+</html>

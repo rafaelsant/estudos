@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        //detructoring no contexto de objetos
+        let produto ={
+            descricao:'notebook',
+            preco:1800,
+            detalhes:{
+                fabricante:'abc',
+                modelo:'xyz'
+            }
+        }
+        //token:
+        //array => []
+        //objeto=> {}
+        //let {descricao,preco} = produto
+        //let {descricao:d,preco:p,desconto=5} = produto
+        let{detalhes: {fabricante,modelo}} = produto
+        console.log(fabricante,modelo)
+        
+    </script>
+
+    </head>
+
+  <body>
+  </body>
+</html>

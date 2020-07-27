@@ -1,0 +1,10 @@
+What is flutter:
+flutter is a multiplatform toolkit
+that was designed to make the app
+development easier to de developers
+asking only for a white screen, where
+the flutter will draw all the inflormation
+you get access to a bunch of widgets
+and you can add them as you want, like
+lego blocks
+
