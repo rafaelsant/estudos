@@ -3,15 +3,17 @@ import {Link} from 'react-router-dom'
 
 import backIcon from '../../assets/images/icons/back.svg'
 import logoImg from '../../assets/images/logo.svg'
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
 
 import './styles.css'
 import PageHeader from '../../components/PageHeader'
+import TeacherItem from '../../components/TeacherItem'
 
 function TeacherList(){
     return (
         <div id="page-teacher-list" className="container">
             <PageHeader title="Estes são os proffys disponíveis">
-                <form className="search-teachers">
+                <form id="search-teachers">
                     <div className="input-block">
                         <label htmlFor="subject">Matéria</label>
                         <input type="text" id="subject"/>
@@ -26,6 +28,12 @@ function TeacherList(){
                     </div>
                 </form>
             </PageHeader>
+            <main>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+            </main>
         </div>
     )
 }
