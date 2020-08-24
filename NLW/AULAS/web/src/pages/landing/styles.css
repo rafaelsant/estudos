@@ -11,7 +11,7 @@
     height: 10rem;
 }
 .hero-image{
-    widows: 100%;
+    width: 100%;
 }
 .logo-container{
     text-align: center;
@@ -86,33 +86,33 @@
         "logo hero hero"
         "buttons buttons total";
     }
-}
-.logo-container{
-    grid-area: logo;
-    align-self: center;
-    margin: 0;
-    text-align: left;
-}
-.hero-image{
-    grid-area: hero;
-    justify-self: end;
-}
-
-.buttons-container{
-    grid-area: buttons;
-    justify-content:flex-start;
-}
-.buttons-container a{
-    font-size: 2.4rem;
-}
-.logo-container img{
-    height: 100%;
-}
-.logo-container h2{
-    text-align: initial;
-    font-size: 3.6rem;
-}
-.total-connections{
-    grid-area: total;
-    justify-self: center;
+    .logo-container{
+        grid-area: logo;
+        align-self: center;
+        margin: 0;
+        text-align: left;
+    }
+    .hero-image{
+        grid-area: hero;
+        justify-self: end;
+    }
+    
+    .buttons-container{
+        grid-area: buttons;
+        justify-content:flex-start;
+    }
+    .buttons-container a{
+        font-size: 2.4rem;
+    }
+    .logo-container img{
+        height: 100%;
+    }
+    .logo-container h2{
+        text-align: initial;
+        font-size: 3.6rem;
+    }
+    .total-connections{
+        grid-area: total;
+        justify-self: center;
+    }
 }

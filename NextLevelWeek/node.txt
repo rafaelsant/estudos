@@ -1,0 +1,13 @@
+//rotas exemplos:
+//https:localhost:3333/users
+//https:localhost:3333/contacts
+
+//metodos http:
+//get: Buscar uma indormação
+//post: Criar alguma nova informaçao no back end
+//put: atualizsr uma informaçao existente
+//delete: deletar uma informação existente
+
+//Corpo (request body): Dados para criação ou atualização de um registro
+//Route Params: Identificar qual recurso eu quero atualizar ou deletar
+//Query Params: Paginaçao/filtros, ordenaçao...
