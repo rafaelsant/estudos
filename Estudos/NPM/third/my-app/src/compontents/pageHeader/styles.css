@@ -1,0 +1,31 @@
+.page-header{
+    background: #000000;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+.page-header .top-bar-container{
+    display: flex;
+}
+.page-header .top-bar-container .header-content{
+    width: 10vw;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-end;
+}
+.page-header .top-bar-container a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+#logo-topo{
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
