@@ -1,0 +1,15 @@
+Técnica de testes:
+Em uma visão simplififade do processo de testagem de software, os desenvolvedores podem executar duas tarefas distintas:
+desenvolverem testes e executarem testes.
+Testes baseados em especificações:
+É enviado ao programa uma série de inputs, onde cada input é designada para uma parte do programa.
+	-Métodos:
+	Dividindo a entrada:Se um programa for muito complexo é interessante dividi-lo em mais de um teste, fazer um teste para cada condição, testar com mais de uma condição ao mesmo tempo e com todas as condições.
+	Divisão equivalente:Assumindo que o programa se comporte igual para todas as situações, pode se dividir os testes em inputs com quantidades equivalentes para cada caso.
+	Divisão por categoria:Esse método divide os casos de teste baseado nas caracteristicas dos padrões de entrada.
+		1-Identificar os parametros ou inputs do programa.
+		2-Extrair as caracteristicas de cada parâmetro (ex:tem que ser um número positivo entre 0 e infinito)
+		3-Adicionar regras para minimizar o número de testes.
+		4-Gerar combinações de valores de input. 
+	Testes de limite:Durante a etapa de programação podem ocorrer erros como trocar o sinal de maior igual por somente maior, nesses casos os programas funcionam na maioria dos casos, mas falham quando a input edtá perto da condição de limite.
+	Limites entre classes:

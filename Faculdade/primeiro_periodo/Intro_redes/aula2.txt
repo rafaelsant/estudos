@@ -1,0 +1,15 @@
+Arquitetura TCP/IP:
+Transmission Control Protocol
+A arquitetura foi criada utilizando quatro camadas: aplicação, transporte, internet e acesso à rede.
+Serviços e protocolos TCP/IP:
+_____________________________________________
+Serviço        |       Protocolo	      
+---------------------------------------------  
+Web            |	HTTP
+EMAIL          |	SMTP,POP,IMAP
+NOMES          |	DNS
+FT             |	FTP,TFTP
+AUDIO,VIDEO    |	RTP
+config         |	DHCP
+_____________________________________________
+IEEE 802

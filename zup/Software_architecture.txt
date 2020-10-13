@@ -1,0 +1,24 @@
+a arquitetura de software é a abstração dos elementos em tempo de execução durante algoma das suas fases de operação.
+O sistema pode ser composto por varias camadas de abstração e várias fases de operação, cada qual com a sua própria arquitetura de software.
+A arquitetura de software é composta por várias camadas,cada um com as suas próprias funções e abstrações, com isso é formado um sistema com várias camadas e vários níveis de abstração, que pode ser decomposto até um elemento que não pode mais ser decomposto.
+um sistema pode ter várias fases de implementação: start-up, inicialização, processamento normal, reinicialização e desligamento, cada fase operacional com a sua própria arquitetura.
+Elementos:
+elementos arquitetonicos:processamento,dados e elementos conectados.
+forma: é definida pela propriedade dos elementos e pelo relacionamento entre os elementos.
+rationale: provê a base para a arquitetura, captando a escolha do estilo, a arquitetura e a forma;
+
+Componentes são partes de código que executam ações, por exemplo uma calculadora que recebe uma entrada que é processada por um componente(código) e é gerada um saída.
+
+Conectores:
+São mecanismos abstratos que fazem a conexão entre os componentes, como chamadas procedurais, transmissão de dados e protocolos de chamada de protocolos.
+Dados:
+Dados são elementos de informação que são recebidos ou passados pelos componentes através dos conectores
+Configurações:
+Uma configuração é uma estrutura de relacionamento entre componentes,conectores e dados durante o tempo de execução.
+Propriedades:
+As propriedades de uma arquitetura de software incluem todas as propriedades que derivam da seleção e arranjo de componentes,conectores e dados do sistema.
+Como por exemplo eficiencia de um sistema, reusabilidade de componentes e extesabilidade dinamica.
+Estilo:
+Um estilo de arquitetura são as coordenadas definidas que definem papeis de elementos de arquitetura e permitem o relacionamento entre esseselementos e qualquer arquitetura que se encaixe nesse estilo.
+
+

@@ -1,0 +1,21 @@
+Dado: Informação sem interpretação.
+ciclo de vida de uma informação:
+	-Criação
+	-Trasporte
+	-Manuseio
+	-Descarte
+O dado contextualizado, precisa de proteção em todo o seu ciclo de vida.
+Quando a mesma chave é usada nas duas etapas, a criptografia é dita simétrica; quando são usadas chaves distintas, ela é assimétrica.
+ASPECTOS DA SEGURANÇA DA INFORMAÇÃO
+Dos aspectos da informação, seus três principais requerem cuidados especiais:
+	-Confidencialidade;
+	-Integridade;
+	-Disponibilidade.
+Também são considerados de extrema importância:
+	-Autenticidade:Assegura que a informação foi gerada por pessoa ou sistema autorizado para isso.
+	-Legalidade:Trata-se do alinhamento da informação e/ou dos processos com normas, portarias, leis e quaisquer outros documentos normativos, cada um na sua respectiva esfera de atribuição e abrangência.
+	-Não repúdio:Também conhecido como irretratabilidade, ele está relacionado ao fato de o emissor negar a autoria de uma informação divulgada.
+SEGURANÇA LÓGICA:
+Em adição às medidas de segurança física, há as de segurança lógica, que correspondem às medidas baseadas em software. Dessa lista, podemos destacar as senhas, as listas de controle de acesso, a criptografia, e o firewall.
+Criptografia simétrica
+Utiliza funções matemáticas mais simples e uma única chave para criptografar e decriptografar. Esta classe de algoritmos é composta por, entre outros exemplos, Cifra de César, Blowfish, Twofish e Rijnadel. Graças a esse controle, é possível assegurar a confidencialidade da informação.

@@ -1,0 +1,11 @@
+protocolo csma/ma = Carrier Sense Multiple Access with Multiple Access
+CSMA/CD = Carrier Sense Multiple Access with Collision Detection
+CS (Carrier Sense): Capacidade de identificar se está ocorrendo transmissão, ou seja, o primeiro passo na transmissão de dados numa rede Ethernet é verificar se o cabo está livre.
+MA (Multiple Access): Capacidade de múltiplos nós concorrerem pela utilização da mídia, ou seja o protocolo CSMA/CD não gera nenhum tipo de prioridade (daí o nome de Multiple Access, acesso múltiplo). Como o CSMA/CD não gera prioridade pode ocorrer de duas placas tentarem transmitir dados ao mesmo tempo. Quando isso ocorre, há uma colisão e nenhuma das placas consegue transmitir dados.
+CD (Collision Detection): É responsável por identificar colisões na rede.
+
+bss basic service set
+IEEE 802.11
+conjunto de bss = ess(extended sevice set)
+colisão redes = transmissões simultâneas de redes diferentes operando em mesma frequências, causando interferência
+
