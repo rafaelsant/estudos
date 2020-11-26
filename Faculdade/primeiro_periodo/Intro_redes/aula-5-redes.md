@@ -66,7 +66,7 @@ A camada de aplicação é um termo utilizado em redes de computadores para desi
 * Arquitetura P2P;
 * Arquitetura híbrida de cliente-servidor e P2P;
 Os protocolos da camada de aplicação atuam junto com os protocolos da camada de transporte (TCP/IP e UDP). Assim, os principais protocolos de aplicação são:
-### TELNET, FTP, TFTP, SMTP, POP, IMAP, DNS, HTTP, HTTPS, RTP, MIME e TLS.[2].
+##### TELNET, FTP, TFTP, SMTP, POP, IMAP, DNS, HTTP, HTTPS, RTP, MIME e TLS.[2].
 
 Como nas outras camadas do modelo, os protocolos da camada de aplicação contam com os da camada inferior para realizar o transporte dos dados através da rede - os dados do protocolo de aplicação são encapsulados no protocolo da camada inferior.
 
