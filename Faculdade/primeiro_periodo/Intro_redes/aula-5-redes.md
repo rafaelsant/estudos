@@ -58,4 +58,16 @@ Primeira camada com visão fim à fim. Controla o tipo de serviço a ser utiliza
 ## Camada de sessão e apresentação:
 São camadas que na prática não são muito utilizadas, a camada de apresentação tem como principal função promover a trasnformação dos dados para que eles sejam mais bem recebidos de forma que fiquem mais adequados à aplicação.
 Acabam na prática sendo absorvidas pela camada de aplicação
+## Aplicação:
+A camada de aplicação é um termo utilizado em redes de computadores para designar uma camada de abstração que engloba protocolos que realizam a comunicação fim-a-fim entre aplicações. No modelo OSI, é a sétima camada. É responsável por prover serviços para aplicações de modo a separar a existência de comunicação em rede entre processos de diferentes computadores. No modelo TCP/IP é a camada cinco (podendo ser a número quatro dependendo do autor) que engloba também as camadas de apresentação e sessão no Modelo OSI.
+É a camada mais próxima do usuário, na qual é a encarregada quando o cliente acessa o e-mail, páginas WEB, mensagens instantâneas, Login remoto, vídeo-clipes, videoconferência, etc. A arquitetura de aplicação permite que o utilizador acesse essas funções. Logo, existem três tipos de arquitetura: [1].
+
+* Arquitetura cliente-servidor;
+* Arquitetura P2P;
+* Arquitetura híbrida de cliente-servidor e P2P;
+Os protocolos da camada de aplicação atuam junto com os protocolos da camada de transporte (TCP/IP e UDP). Assim, os principais protocolos de aplicação são:
+### TELNET, FTP, TFTP, SMTP, POP, IMAP, DNS, HTTP, HTTPS, RTP, MIME e TLS.[2].
+
+Como nas outras camadas do modelo, os protocolos da camada de aplicação contam com os da camada inferior para realizar o transporte dos dados através da rede - os dados do protocolo de aplicação são encapsulados no protocolo da camada inferior.
+
 
