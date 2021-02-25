@@ -13,44 +13,43 @@ dezC= 0
 cincoC= 0
 umC= 0
 if(D >= 0) and (D <= 1000000.00):
-    while(D != 0 ):
-    	while (D > 100.00):
+    while(D > 0.00 ):
+    	while (D >= 100.00):
     		cem +=1
     		D-=100.00;
-    	while (D > 50.00):
+    	while (D >= 50.00):
     		cinquenta +=1
     		D-=50.00;
-    	while (D > 20.00):
+    	while (D >= 20.00):
     		vinte +=1
     		D-=20.00;
-    	while (D > 10.00):
+    	while (D >= 10.00):
     		dez +=1
     		D-=10.00;
-    	while (D > 5.00):
+    	while (D >= 5.00):
     		cinco+=1
     		D-=5.00;
-    	while (D > 2.00):
+    	while (D >= 2.00):
     		dois +=1
     		D-=2.00;
-    	while (D > 1.00):
-    		umR +=1
+    	while (D >= 1.00):
     		D-=1.00;
-    	while (D > 0.50):
-    		cinquentaC +=1
+    		umR +=1
+    	while (D >= 0.50):
     		D-=0.50;
-    	while (D > 0.25):
-    		vinteCincoC +=1
+    		cinquentaC +=1
+    	while (D >= 0.25):
     		D-=0.25;
-    	while (D > 0.10):
-    		dezC +=1
+    		vinteCincoC +=1
+    	while (D >= 0.10):
     		D-=0.10;
-    	while (D > 0.05):
+    		dezC +=1
+    	while (D >= 0.05):
+    		D-=0.05
     		cincoC +=1
-    		D-=0.05;
-    	while (D > 0.01):
-    		umC +=1
-    		D-=0.01;
+    	umC=D*100;
     	break
+print(D)
 print("NOTAS:")
 print("%i nota(s) de R$ 100.00" %(cem))
 print("%i nota(s) de R$ 50.00" %(cinquenta))

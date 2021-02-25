@@ -1,17 +1,4 @@
 
-function toFixed(value, precision) {
-    var precision = precision || 0,
-        power = Math.pow(10, precision),
-        absValue = Math.abs(Math.round(value * power)),
-        result = (value < 0 ? '-' : '') + String(Math.floor(absValue / power));
-
-    if (precision > 0) {
-        var fraction = String(absValue % power),
-            padding = new Array(Math.max(precision - fraction.length, 0) + 1).join('0');
-        result += '.' + padding + fraction;
-    }
-    return result;
-}
 function preenche(){
 	var cem = 0
 	var cinquenta= 0
@@ -25,7 +12,7 @@ function preenche(){
 	var dezC= 0
 	var cincoC= 0
 	var umC= 0
-	var D = document.getElementById('entrada').value
+	var D = 576.76
 	D = parseFloat(toFixed(D,2))
 	if(D >= 0 & D <= 1000000.00){
 		while(D != 0 ){
